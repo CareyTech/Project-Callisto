@@ -7,19 +7,19 @@
 
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) 
+    Private Sub Button2_Click(sender As Object, e As EventArgs)
         WebBrowser1.Navigate(TextBox1.Text)
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) 
+    Private Sub Button3_Click(sender As Object, e As EventArgs)
         WebBrowser1.GoBack()
     End Sub
 
-    Private Sub Button4_Click(sender As Object, e As EventArgs) 
+    Private Sub Button4_Click(sender As Object, e As EventArgs)
         WebBrowser1.GoForward()
     End Sub
 
-    Private Sub Button6_Click(sender As Object, e As EventArgs) 
+    Private Sub Button6_Click(sender As Object, e As EventArgs)
         WebBrowser1.Refresh()
 
     End Sub
@@ -28,7 +28,7 @@
 
     End Sub
 
-    Private Sub Button5_Click(sender As Object, e As EventArgs) 
+    Private Sub Button5_Click(sender As Object, e As EventArgs)
         WebBrowser1.Navigate("www.carey.com.au")
     End Sub
 
