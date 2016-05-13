@@ -149,4 +149,36 @@
         SEvyAQAAJPX5879ca/P/YwKqSwAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="PictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAJBJREFUaEPt
+        lDsKwzAQBXUtfy5mcBHnyMkB4iccNUGls9oHMzDgaplXWAUAAOCPHPJxffrxlJ+vdiN22eItR0zyJRkx
+        GkZkgRFZYEQWGJGFkBG/x6O8bUTveJS3jOgdjtJ6gMXPPEvbl8g6fpHEj8A+/i2Jj8Y6fpXEj8A6vrJJ
+        2/hGDbaNb9Rw23gAAMhOKSdvCAn5unKKBAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="PictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAI5JREFUaEPt
+        00EKwyAUhGFv1eRghW5CcuT0BO17RCELs0rrc+T/YEBczYAmAAD+aMuR5MU/OXIjzuVLXhYJtfK75WHp
+        HuWjUD4K5aNQPgrlo9TKt8ptkeU9t8kPcNJPqJD+xMWwI94WRrQ29IjJIoMRvbgaMVtkMKIXtRFPi5Tz
+        iMUvFPmI9TgCAPBrKX0Bx3wJh5B4MhQAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="PictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAJVSURBVGhD7dhLS1VRGMbx08UuWkYzrZDQgkbhh+gyaViS0qBv0sW8VYOgQWU1ERsEjfoQhUEh
+        Nja73ygcFIoW1P8BD7y87NPZe691tA3rgR+Cbt+19m1ddi0lJSUlJSVSdmMQd/EM37CK3/iO57iPIXQi
+        Ty6u/WxpDkMdW8KfnHTsPRxCo1yCjm1ZduI6fsF3MC/doavYAZvLqB/TkujKvYTtTIg59EIZhv1b9PTj
+        C2wjdfMYwTF0Yxu2oAvHMYF3yPpf1Zx0v5Oo0ZXP6vwrnMZmNMtWnMcn+DpZokXPvG61b2AK7SiavXgM
+        X8+LFt1+X3wcIdEdm4Wva0WJHh2NGLawrnxo/AubJUr8y6VnvsxjY5On8xKcXfgJW/QMQmLH+WaCMwBb
+        UENlntGmUeozbF7BuQVbUON82RTtvATnCWxBTVJlooWZrZNXcD7DFtQMW6n4VaaWB5VK5U/Ar1n2oVKJ
+        9RJvWPwwOopKRctkewILCJnIGkXL7PewbZ1CcDrglxKanWNHewTbxiL8VrN07sAWfw2dWKzswQfYNm4g
+        WrRfXYFtYBoxsgmPYGsv4wCiZgy2EbmGkKjzN+HrXkD06HnM2j09gJbcRaMPYQ/h6+mjWBtaEj1Kfm0k
+        b3AWeUYnfaU4h7fwdfQeRH90fI4i6yREL7f2ySegjmyHruZ+nIT21Vkdl484gnWJ7kSzzXgRL9CDdY3e
+        CV1tv9kvQiPbFWzoArEP2vT7ye5ffkBLlIP4b6KRSDP0bTyFvuDpCusOfcUM1Gl9ECgzaqWkpKSkpLjU
+        an8Bj92DfK//daYAAAAASUVORK5CYII=
+</value>
+  </data>
 </root>
