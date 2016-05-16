@@ -39,11 +39,12 @@ Partial Class Form1
         'TextBox1
         '
         Me.TextBox1.BackColor = System.Drawing.Color.White
-        Me.TextBox1.Font = New System.Drawing.Font("Segoe UI", 19.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Font = New System.Drawing.Font("Segoe UI", 19.0!)
         Me.TextBox1.Location = New System.Drawing.Point(225, 7)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(816, 78)
+        Me.TextBox1.Size = New System.Drawing.Size(816, 75)
         Me.TextBox1.TabIndex = 1
+        Me.TextBox1.Text = "Search Or Enter An Address" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'Button1
         '
@@ -51,7 +52,7 @@ Partial Class Form1
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(146, 90)
         Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Xweb"
+        Me.Button1.Text = "Xweb Menu"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'PictureBox1
@@ -66,7 +67,7 @@ Partial Class Form1
         '
         'WebBrowser1
         '
-        Me.WebBrowser1.Location = New System.Drawing.Point(-263, 96)
+        Me.WebBrowser1.Location = New System.Drawing.Point(-290, -35)
         Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
         Me.WebBrowser1.Name = "WebBrowser1"
         Me.WebBrowser1.Size = New System.Drawing.Size(2587, 1297)
@@ -75,7 +76,7 @@ Partial Class Form1
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(1153, 20)
+        Me.PictureBox2.Location = New System.Drawing.Point(1138, 20)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(51, 51)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -85,7 +86,7 @@ Partial Class Form1
         'PictureBox3
         '
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(1096, 20)
+        Me.PictureBox3.Location = New System.Drawing.Point(1081, 20)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(51, 51)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -95,7 +96,7 @@ Partial Class Form1
         'PictureBox4
         '
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(1210, 21)
+        Me.PictureBox4.Location = New System.Drawing.Point(1195, 20)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(51, 51)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage

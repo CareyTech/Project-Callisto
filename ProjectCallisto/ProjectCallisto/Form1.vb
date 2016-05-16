@@ -35,4 +35,42 @@
     Private Sub WebBrowser1_DocumentCompleted(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowser1.DocumentCompleted
 
     End Sub
+
+    Private Sub Form1_KeyDown(sender As Object, e As KeyEventArgs) Handles MyBase.KeyDown
+
+    End Sub
+
+    Private Sub Button2_Click_1(sender As Object, e As EventArgs)
+        WebBrowser1.Navigate(TextBox1.Text)
+    End Sub
+
+    Private Sub TextBox1_KeyDown(sender As Object, e As KeyEventArgs) Handles TextBox1.KeyDown
+        If e.KeyCode = Keys.Enter Then
+            If TextBox1.Text.Contains(" ") Then
+                WebBrowser1.Navigate("https://www.google.com/search?q=" + TextBox1.Text)
+            ElseIf TextBox1.Text.Contains(".") Then
+                WebBrowser1.Navigate(TextBox1.Text)
+            Else
+                WebBrowser1.Navigate("https://www.google.com/search?q=" + TextBox1.Text)
+            End If
+
+        End If
+    End Sub
+
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
+
+        If WebBrowser1.CanGoBack Then
+            WebBrowser1.GoBack()
+        End If
+    End Sub
+
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+        If WebBrowser1.CanGoForward Then
+            WebBrowser1.GoForward()
+        End If
+    End Sub
+
+    Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
+        WebBrowser1.Refresh()
+    End Sub
 End Class
