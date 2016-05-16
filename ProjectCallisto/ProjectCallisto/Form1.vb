@@ -1,9 +1,17 @@
 ﻿Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         TextBox1.BorderStyle = BorderStyle.None
+        Me.WindowState = FormWindowState.Maximized
     End Sub
 
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+        If TextBox1.Text.Contains(" ") Then
+            PictureBox6.Visible = True
+        ElseIf TextBox1.Text.Contains(".") Then
+            PictureBox6.Visible = False
+        Else
+            PictureBox6.Visible = True
+        End If
 
     End Sub
 
@@ -72,5 +80,9 @@
 
     Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
         WebBrowser1.Refresh()
+    End Sub
+
+    Private Sub WebBrowser1_DoubleClick(sender As Object, e As EventArgs) Handles WebBrowser1.DoubleClick
+
     End Sub
 End Class
