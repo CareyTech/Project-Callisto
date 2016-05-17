@@ -82,7 +82,5 @@
         WebBrowser1.Refresh()
     End Sub
 
-    Private Sub WebBrowser1_DoubleClick(sender As Object, e As EventArgs) Handles WebBrowser1.DoubleClick
 
-    End Sub
 End Class
