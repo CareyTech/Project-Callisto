@@ -1,7 +1,7 @@
 ﻿Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         TextBox1.BorderStyle = BorderStyle.None
-        WebBrowser1.Navigate("http://www.google.com")
+        WebBrowser1.Navigate("http://google.com.au")
         Me.WindowState = FormWindowState.Maximized
     End Sub
 
@@ -83,5 +83,7 @@
         WebBrowser1.Refresh()
     End Sub
 
+    Private Sub WebBrowser1_TextChanged(sender As Object, e As EventArgs) Handles WebBrowser1.TextChanged
 
+    End Sub
 End Class
