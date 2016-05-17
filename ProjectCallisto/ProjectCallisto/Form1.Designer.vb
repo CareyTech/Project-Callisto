@@ -34,7 +34,6 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox7 = New System.Windows.Forms.PictureBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -155,15 +154,6 @@ Partial Class Form1
         Me.Label2.Text = "Label2"
         Me.Label2.Visible = False
         '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(1323, 33)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(77, 25)
-        Me.Label3.TabIndex = 18
-        Me.Label3.Text = "Label3"
-        '
         'WebBrowser1
         '
         Me.WebBrowser1.Dock = System.Windows.Forms.DockStyle.Fill
@@ -177,7 +167,7 @@ Partial Class Form1
         '
         Me.ProgressBar1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ProgressBar1.Location = New System.Drawing.Point(2, 93)
+        Me.ProgressBar1.Location = New System.Drawing.Point(2, 90)
         Me.ProgressBar1.Name = "ProgressBar1"
         Me.ProgressBar1.Size = New System.Drawing.Size(1881, 10)
         Me.ProgressBar1.TabIndex = 20
@@ -198,7 +188,6 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(1883, 942)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.ProgressBar1)
-        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.PictureBox7)
         Me.Controls.Add(Me.PictureBox6)
@@ -235,7 +224,6 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox7 As PictureBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
     Friend WithEvents WebBrowser1 As WebBrowser
     Friend WithEvents ProgressBar1 As ProgressBar
     Friend WithEvents Label4 As Label
