@@ -35,6 +35,7 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox7 = New System.Windows.Forms.PictureBox()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -81,7 +82,7 @@ Partial Class Form1
         Me.WebBrowser1.Location = New System.Drawing.Point(2, 0)
         Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
         Me.WebBrowser1.Name = "WebBrowser1"
-        Me.WebBrowser1.Size = New System.Drawing.Size(1297, 951)
+        Me.WebBrowser1.Size = New System.Drawing.Size(1869, 951)
         Me.WebBrowser1.TabIndex = 9
         '
         'PictureBox2
@@ -140,7 +141,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label1.Location = New System.Drawing.Point(-3, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(1302, 90)
+        Me.Label1.Size = New System.Drawing.Size(1874, 90)
         Me.Label1.TabIndex = 15
         '
         'PictureBox7
@@ -156,19 +157,29 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(1147, 0)
+        Me.Label2.Location = New System.Drawing.Point(1126, -8)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(77, 25)
         Me.Label2.TabIndex = 17
         Me.Label2.Text = "Label2"
         Me.Label2.Visible = False
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(1323, 33)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(77, 25)
+        Me.Label3.TabIndex = 18
+        Me.Label3.Text = "Label3"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.ClientSize = New System.Drawing.Size(1311, 942)
+        Me.ClientSize = New System.Drawing.Size(1883, 942)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.PictureBox7)
         Me.Controls.Add(Me.PictureBox6)
@@ -206,4 +217,5 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox7 As PictureBox
     Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
 End Class
