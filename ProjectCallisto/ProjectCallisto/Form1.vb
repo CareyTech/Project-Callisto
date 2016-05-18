@@ -93,7 +93,7 @@
             PictureBox7.Visible = True
         ElseIf TextBox1.Text.Contains("http://") Then
             TextBox1.Text = Replace(TextBox1.Text, "http://", "")
-            PictureBox7.Visible = False
+            PictureBox8.Visible = True
         Else
             PictureBox7.Visible = False
         End If
@@ -114,5 +114,9 @@
         Catch ex As Exception
             Label4.Text = "Error Loading"
         End Try
+    End Sub
+
+    Private Sub PictureBox8_Click(sender As Object, e As EventArgs) Handles PictureBox8.Click
+
     End Sub
 End Class
