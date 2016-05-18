@@ -1,9 +1,24 @@
-﻿Public Class Form1
+﻿Imports Gecko
+
+Public Class Form1
+    Public Sub New()
+        '   set the path of the directory where the xulrunner files are located
+        Dim xrPath As String = System.Reflection.Assembly.GetExecutingAssembly.Location
+        xrPath = xrPath.Substring(0, xrPath.LastIndexOf("\") + 1) & "xulrunner"
+
+        'initialize the path
+        Xpcom.Initialize(xrPath)
+
+        InitializeComponent()
+
+
+    End Sub
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
         TextBox1.BorderStyle = BorderStyle.None
         Me.WindowState = FormWindowState.Maximized
         WebBrowser1.Navigate("http://google.com.au")
-        WebBrowser1.ScriptErrorsSuppressed = True
+        ' WebBrowser1.ScriptErrorsSuppressed = True
 
     End Sub
 
@@ -85,7 +100,7 @@
         WebBrowser1.Refresh()
     End Sub
 
-    Private Sub WebBrowser1_DocumentCompleted_1(sender As Object, e As WebBrowserDocumentCompletedEventArgs) Handles WebBrowser1.DocumentCompleted
+    Private Sub WebBrowser1_DocumentCompleted_1(sender As Object, e As WebBrowserDocumentCompletedEventArgs)
         TextBox1.Text = WebBrowser1.Url.ToString
         Label2.Text = WebBrowser1.Url.ToString
         If TextBox1.Text.Contains("https://") Then
@@ -98,7 +113,15 @@
             PictureBox7.Visible = False
         End If
     End Sub
-    Private Sub WebBrowser1_ProgressChanged(ByVal sender As Object, ByVal e As System.Windows.Forms.WebBrowserProgressChangedEventArgs) Handles WebBrowser1.ProgressChanged
+
+
+    Private Sub PictureBox8_Click(sender As Object, e As EventArgs) Handles PictureBox8.Click
+
+    End Sub
+
+
+
+    Private Sub WebBrowser1_ProgressChanged(sender As Object, e As GeckoProgressEventArgs) Handles WebBrowser1.ProgressChanged
         Try
             ProgressBar1.Maximum = e.MaximumProgress
             ProgressBar1.Value = e.CurrentProgress
@@ -114,9 +137,5 @@
         Catch ex As Exception
             Label4.Text = "Error Loading"
         End Try
-    End Sub
-
-    Private Sub PictureBox8_Click(sender As Object, e As EventArgs) Handles PictureBox8.Click
-
     End Sub
 End Class
